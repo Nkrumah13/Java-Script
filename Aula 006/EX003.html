@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Meu primeiro programa</title>
+    <style>
+
+        body
+        {
+
+            background-color: darkturquoise ;
+        }
+        h1 
+        {
+            color: blueviolet; 
+            
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá mundo</h1> 
+    <p>Me livrei da maldição</p>
+    <script>
+    /*
+        window.confirm('Está gostando de como as coisas estão indo?') // janela com o botão ok e cancelar
+      var nome =  window.prompt('Digite o seu nome') // Serve para in teragir com o usuario fazendo uma pergunta.
+      window.alert('É um prazer te conhecer ' + nome + ' Disfrute do nosso site') // O + serve para juntar e chamamos de concatenação
+        */
+
+        var n1 = Number.parseFloat(window.prompt("Digite o primeiro número"))//Usamos o number.parse para converter uma string em número
+        var n2 = Number.parseFloat (window.prompt("Digite o segundo número"))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual  a ${s}`)
+
+    </script>
+</body>
+</html>
